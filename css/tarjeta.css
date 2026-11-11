@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 40px;
+}
+
+.tarjeta {
+    width: 300px;
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #f0f0f0; /* color original */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    font-size: 18px;
+}
+
+.botones button {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#btnAzul { background-color: lightblue; }
+#btnVerde { background-color: lightgreen; }
+#btnRojo { background-color: lightcoral; }
+#btnRestablecer { background-color: #ddd; }
